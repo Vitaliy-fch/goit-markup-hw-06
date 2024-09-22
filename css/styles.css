@@ -896,6 +896,9 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .information-footer {
+    padding-left: 108px;
+  }
   .container-footer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -934,6 +937,9 @@ button {
 }
 
 @media screen and (min-width: 1158px) {
+  .information-footer {
+    padding-left: 0;
+  }
   .container-footer {
     width: 1158px;
     padding: 0 15px;
