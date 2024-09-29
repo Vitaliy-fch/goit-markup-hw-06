@@ -982,6 +982,7 @@ button {
     padding: 0 15px;
   }
   .container-logo {
+    margin-bottom: 0;
     margin-right: 120px;
   }
   .information-footer {
@@ -1026,7 +1027,9 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 288px;
-  min-height: 584px;
+  max-height: 623px;
+  /* height: 80%; */
+  /* overflow: auto; */
   background-color: #fcfcfc;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
@@ -1220,6 +1223,7 @@ button {
 @media screen and (min-width: 768px) {
   .modal {
     width: 408px;
+    max-height: 584px;
     padding: 72px 24px 24px 24px;
   }
 
